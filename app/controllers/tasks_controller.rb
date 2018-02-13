@@ -9,7 +9,7 @@ class TasksController < ApplicationController
   end
   
   def new
-    @task = Task.new(content:'study programming', status:'%')
+    @task = Task.new
   end
   
   def create
